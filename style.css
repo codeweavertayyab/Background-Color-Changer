@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white !important;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorContainer {
+  height: 400px;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 16px;
+  padding: 30px;
+  margin: 30px;
+}
+.colorContainer h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+#colorPicker {
+  height: 100px;
+  width: 150px;
+  background-color: white;
+  padding: 5px;
+  margin: 20px;
+}
+.clipboard {
+  height: 100px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+#btn-copy {
+  width: 150px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: medium;
+  background-color: transparent;
+  border-radius: 0px;
+  border: 0.5px solid white;
+  font-weight: bolder;
+  transition: 0.3s ease-in-out;
+  margin-left: 10px;
+}
+#btn-copy:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+i {
+  margin-left: 10px;
+  font-size: medium;
+}
+.signature{
+  width: 135px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signature h6{
+  font-weight: normal;
+}
+@media only screen and (max-width: 430px) {
+  .colorContainer {
+    height: 400px;
+    width: 350px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 16px;
+    padding: 30px;
+  }
+  .colorContainer h1 {
+    font-size: 20px;
+  }
+}
